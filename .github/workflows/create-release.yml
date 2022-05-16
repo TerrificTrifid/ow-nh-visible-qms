@@ -32,4 +32,5 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: "${{ github.event.repository.name }}.zip"
+          body: "${{ github.event.head_commit.message }}"
           tag_name: "v${{fromJson(steps.read-manifest.outputs.manifest).version}}"
