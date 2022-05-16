@@ -1,0 +1,57 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Quantum Fate",
+	"Base": {
+		"hasMapMarker": true,
+		"surfaceSize": 70,
+		"surfaceGravity": 4,
+		"hasAmbientLight": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 1100,
+		"primaryBody": "Timber Hearth",
+		"inclination": 80,
+		"longitudeOfAscendingNode": 0,
+		"trueAnomaly": 0,
+		"isMoon": true,
+		"isTidallyLocked": true
+	},
+	"Atmosphere": {
+		"size": 105,
+		"hasAtmosphere": true,
+		"atmosphereTint": {
+			"R": 140,
+			"G": 140,
+			"B": 150,
+			"A": 255
+		},
+		"fogSize": 105,
+		"fogDensity": 0.1,
+		"fogTint": {
+			"R": 140,
+			"G": 140,
+			"B": 150,
+			"A": 255
+		}
+	},
+	"Signal": {
+		"signals": [
+			{ "position" : {"x": 0, "y": 0, "z": 0}, "frequency" : "Quantum", "name" : "Quantum Fate", "audioClip" : "OW_QuantumSignal", "sourceRadius" : 105, "detectionRadius": 105, "identificationRadius" : 105, "onlyAudibleToScope" : true },
+			{ "position" : {"x": -5.5, "y": -70, "z": 1.5}, "frequency" : "Traveler", "name" : "Solanum", "audioClip" : "OW_TravelerTheme_piano", "sourceRadius" : 2, "detectionRadius": 35, "identificationRadius" : 10, "onlyAudibleToScope" : false }
+		]
+	},
+	"Props": {
+		"details": [
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE",
+				"position": {"x": 0, "y": 0, "z": 0},
+				"removeChildren": [
+					"Clouds_QM_EyeState/GeodesicSphere12k_SphereUV_ReverseNormals",
+					"Clouds_QM_EyeState/Effects_QM_EyeVortex/EyeVortex_BlackStop",
+					"Volumes_EYEState/EyeFluidVolume_Outer",
+					"Volumes_EYEState/KillVolume"
+				]
+			}
+		]
+	}
+}

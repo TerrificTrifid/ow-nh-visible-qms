@@ -1,0 +1,50 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Quantum Hearth",
+	"Base": {
+		"hasMapMarker": true,
+		"surfaceSize": 70,
+		"surfaceGravity": 4,
+		"hasAmbientLight": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 1100,
+		"primaryBody": "Timber Hearth",
+		"inclination": 80,
+		"longitudeOfAscendingNode": 0,
+		"trueAnomaly": 180,
+		"isMoon": true,
+		"isTidallyLocked": true
+	},
+	"Atmosphere": {
+		"size": 105,
+		"hasAtmosphere": true,
+		"atmosphereTint": {
+			"R": 140,
+			"G": 140,
+			"B": 150,
+			"A": 255
+		},
+		"fogSize": 105,
+		"fogDensity": 0.1,
+		"fogTint": {
+			"R": 140,
+			"G": 140,
+			"B": 150,
+			"A": 255
+		}
+	},
+	"Signal": {
+		"signals": [
+			{ "position" : {"x": 0, "y": 0, "z": 0}, "frequency" : "Quantum", "name" : "Quantum Hearth", "audioClip" : "OW_QuantumSignal", "sourceRadius" : 105, "detectionRadius": 105, "identificationRadius" : 105, "onlyAudibleToScope" : true }
+		]
+	},
+	"Props": {
+		"details": [
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH",
+				"position": {"x": 0, "y": 0, "z": 0}
+			}
+		]
+	}
+}
