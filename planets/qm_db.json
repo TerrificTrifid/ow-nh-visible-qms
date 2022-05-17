@@ -16,15 +16,16 @@
 		"isTidallyLocked": true
 	},
 	"Atmosphere": {
-		"size": 105,
+		"size": 110,
 		"hasAtmosphere": true,
+		"hasOxygen": true,
 		"atmosphereTint": {
 			"R": 140,
 			"G": 140,
 			"B": 150,
 			"A": 255
 		},
-		"fogSize": 105,
+		"fogSize": 110,
 		"fogDensity": 0.1,
 		"fogTint": {
 			"R": 140,
@@ -42,6 +43,10 @@
 		"details": [
 			{
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB",
+				"position": {"x": 0, "y": 0, "z": 0}
+			},
+			{
+				"path": "QuantumMoon_Body/AmbientLight_QM",
 				"position": {"x": 0, "y": 0, "z": 0}
 			}
 		]

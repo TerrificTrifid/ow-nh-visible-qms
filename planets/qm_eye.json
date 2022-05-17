@@ -10,22 +10,23 @@
 	"Orbit": {
 		"semiMajorAxis": 1100,
 		"primaryBody": "Timber Hearth",
-		"inclination": 80,
-		"longitudeOfAscendingNode": 0,
+		"inclination": 100,
+		"longitudeOfAscendingNode": 240,
 		"trueAnomaly": 0,
 		"isMoon": true,
 		"isTidallyLocked": true
 	},
 	"Atmosphere": {
-		"size": 105,
+		"size": 110,
 		"hasAtmosphere": true,
+		"hasOxygen": true,
 		"atmosphereTint": {
 			"R": 140,
 			"G": 140,
 			"B": 150,
 			"A": 255
 		},
-		"fogSize": 105,
+		"fogSize": 110,
 		"fogDensity": 0.1,
 		"fogTint": {
 			"R": 140,
@@ -51,6 +52,10 @@
 					"Volumes_EYEState/EyeFluidVolume_Outer",
 					"Volumes_EYEState/KillVolume"
 				]
+			},
+			{
+				"path": "QuantumMoon_Body/AmbientLight_QM",
+				"position": {"x": 0, "y": 0, "z": 0}
 			}
 		]
 	}
