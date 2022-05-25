@@ -4,8 +4,7 @@
 	"Base": {
 		"hasMapMarker": true,
 		"surfaceSize": 70,
-		"surfaceGravity": 4,
-		"hasAmbientLight": true
+		"surfaceGravity": 4
 	},
 	"Orbit": {
 		"semiMajorAxis": 1400,
@@ -17,21 +16,21 @@
 	},
 	"Atmosphere": {
 		"size": 110,
-		"hasAtmosphere": true,
+		"useAtmosphereShader": true,
 		"hasOxygen": true,
 		"atmosphereTint": {
-			"R": 140,
-			"G": 140,
-			"B": 150,
-			"A": 255
+			"r": 140,
+			"g": 140,
+			"b": 150,
+			"a": 255
 		},
 		"fogSize": 110,
 		"fogDensity": 0.1,
 		"fogTint": {
-			"R": 140,
-			"G": 140,
-			"B": 150,
-			"A": 255
+			"r": 140,
+			"g": 140,
+			"b": 150,
+			"a": 255
 		}
 	},
 	"Signal": {
