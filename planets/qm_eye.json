@@ -6,6 +6,9 @@
 		"surfaceSize": 70,
 		"surfaceGravity": 4
 	},
+	"ReferenceFrame": {
+		"bracketRadius": 130
+	},
 	"Orbit": {
 		"semiMajorAxis": 1100,
 		"primaryBody": "Timber Hearth",
@@ -44,7 +47,6 @@
 		"details": [
 			{
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE",
-				"position": {"x": 0, "y": 0, "z": 0},
 				"removeChildren": [
 					"Clouds_QM_EyeState/GeodesicSphere12k_SphereUV_ReverseNormals",
 					"Clouds_QM_EyeState/Effects_QM_EyeVortex/EyeVortex_BlackStop",
@@ -53,8 +55,12 @@
 				]
 			},
 			{
-				"path": "QuantumMoon_Body/AmbientLight_QM",
-				"position": {"x": 0, "y": 0, "z": 0}
+				"assetBundle": "planets/terrifictrifid_visibleqms",
+				"path": "Assets/QMCore.prefab",
+				"scale": 65
+			},
+			{
+				"path": "QuantumMoon_Body/AmbientLight_QM"
 			}
 		]
 	}

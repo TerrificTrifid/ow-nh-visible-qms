@@ -6,6 +6,9 @@
 		"surfaceSize": 70,
 		"surfaceGravity": 4
 	},
+	"ReferenceFrame": {
+		"bracketRadius": 130
+	},
 	"Orbit": {
 		"semiMajorAxis": 1100,
 		"primaryBody": "Timber Hearth",
@@ -42,12 +45,15 @@
 	"Props": {
 		"details": [
 			{
-				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH",
-				"position": {"x": 0, "y": 0, "z": 0}
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH"
 			},
 			{
-				"path": "QuantumMoon_Body/AmbientLight_QM",
-				"position": {"x": 0, "y": 0, "z": 0}
+				"assetBundle": "planets/terrifictrifid_visibleqms",
+				"path": "Assets/QMCore.prefab",
+				"scale": 65
+			},
+			{
+				"path": "QuantumMoon_Body/AmbientLight_QM"
 			}
 		]
 	}

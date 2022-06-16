@@ -6,6 +6,9 @@
 		"surfaceSize": 70,
 		"surfaceGravity": 4
 	},
+	"ReferenceFrame": {
+		"bracketRadius": 130
+	},
 	"Orbit": {
 		"semiMajorAxis": 1500,
 		"primaryBody": "Dark Bramble",
@@ -41,12 +44,10 @@
 	"Props": {
 		"details": [
 			{
-				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB",
-				"position": {"x": 0, "y": 0, "z": 0}
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB"
 			},
 			{
-				"path": "QuantumMoon_Body/AmbientLight_QM",
-				"position": {"x": 0, "y": 0, "z": 0}
+				"path": "QuantumMoon_Body/AmbientLight_QM"
 			}
 		]
 	}
