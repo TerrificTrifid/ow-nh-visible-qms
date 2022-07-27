@@ -37,13 +37,14 @@
 			"a": 255
 		}
 	},
-	"Signal": {
-		"signals": [
-			{ "position" : {"x": 0, "y": 0, "z": 0}, "frequency" : "Quantum", "name" : "Quantum Fate", "audioClip" : "OW_QuantumSignal", "sourceRadius" : 105, "detectionRadius": 105, "identificationRadius" : 105, "onlyAudibleToScope" : true },
-			{ "position" : {"x": -5.5, "y": -70, "z": 1.5}, "frequency" : "Traveler", "name" : "Solanum", "audioClip" : "OW_TravelerTheme_piano", "sourceRadius" : 2, "detectionRadius": 35, "identificationRadius" : 10, "onlyAudibleToScope" : false }
-		]
-	},
 	"Props": {
+		"signals": [
+			{ "position" : {"x": 0, "y": 0, "z": 0}, "frequency" : "Quantum", "name" : "Quantum Fate", "audio" : "OW_QuantumSignal", "sourceRadius" : 105, "detectionRadius": 105, "identificationRadius" : 105, "onlyAudibleToScope" : true },
+			{ "position" : {"x": -5.5, "y": -70, "z": 1.5}, "frequency" : "Traveler", "name" : "Solanum", "audio" : "OW_TravelerTheme_piano", "sourceRadius" : 2, "detectionRadius": 35, "identificationRadius" : 10, "onlyAudibleToScope" : false }
+		],
+		"audioVolumes": [
+			{ "audio": "OW_QuantumMoon", "track": "music", "position": {"x": 0, "y": 0, "z": 0}, "radius": 105 }
+		],
 		"details": [
 			{
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE",

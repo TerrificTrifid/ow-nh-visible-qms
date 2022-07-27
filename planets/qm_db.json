@@ -36,12 +36,13 @@
 			"a": 255
 		}
 	},
-	"Signal": {
-		"signals": [
-			{ "position" : {"x": 0, "y": 0, "z": 0}, "frequency" : "Quantum", "name" : "Quantum Bramble", "audioClip" : "OW_QuantumSignal", "sourceRadius" : 105, "detectionRadius": 105, "identificationRadius" : 105, "onlyAudibleToScope" : true }
-		]
-	},
 	"Props": {
+		"signals": [
+			{ "position" : {"x": 0, "y": 0, "z": 0}, "frequency" : "Quantum", "name" : "Quantum Bramble", "audio" : "OW_QuantumSignal", "sourceRadius" : 105, "detectionRadius": 105, "identificationRadius" : 105, "onlyAudibleToScope" : true }
+		],
+		"audioVolumes": [
+			{ "audio": "OW_QuantumMoon", "track": "music", "position": {"x": 0, "y": 0, "z": 0}, "radius": 105 }
+		],
 		"details": [
 			{
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB"
