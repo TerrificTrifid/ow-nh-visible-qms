@@ -5,5 +5,6 @@
   "uniqueName": "TerrificTrifid.VisibleQMs",
   "version": "0.2.1",
   "owmlVersion": "2.1.0",
-  "dependencies": [ "xen.NewHorizons" ]
+  "dependencies": [ "xen.NewHorizons" ],
+  "conflicts": [ "hearth1an.TheVision" ]
 }
