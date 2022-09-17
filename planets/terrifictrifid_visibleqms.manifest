@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1687053543
+CRC: 1688324113
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 074e176b4f0830fe49af4175dfffb589
+    Hash: aa16a4739cd7bfcf2cdc67113aadafe8
   TypeTreeHash:
     serializedVersion: 2
-    Hash: baf6bf1de6b29b014a82c1d147f3f7a1
+    Hash: 675f9e3db1cc42b94062e801292d4ca5
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -25,9 +25,14 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3b553936b4d86184aa70c1ec16223cdc, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
 - Class: 135
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/QMCore.prefab
+- Assets/PolarForceVolume.prefab
 Dependencies: []

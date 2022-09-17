@@ -50,6 +50,11 @@
 				"scale": 65
 			},
 			{
+				"assetBundle": "planets/terrifictrifid_visibleqms",
+				"path": "Assets/PolarForceVolume.prefab",
+				"scale": 110
+			},
+			{
 				"path": "QuantumMoon_Body/AmbientLight_QM"
 			}
 		]
