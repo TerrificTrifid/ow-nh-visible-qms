@@ -38,7 +38,7 @@
 	},
 	"Props": {
 		"signals": [
-			{ "position" : {"x": 0, "y": 0, "z": 0}, "frequency" : "Quantum", "name" : "Quantum Bramble", "audio" : "OW_QuantumSignal", "sourceRadius" : 105, "detectionRadius": 105, "identificationRadius" : 105, "onlyAudibleToScope" : true }
+			{ "position" : {"x": 0, "y": 0, "z": 0}, "frequency" : "Quantum", "name" : "Quantum Bramble", "audio" : "OW_QuantumSignal", "sourceRadius" : 110, "detectionRadius": 110, "identificationRadius" : 0, "onlyAudibleToScope" : true }
 		],
 		"details": [
 			{
@@ -51,8 +51,8 @@
 	},
 	"Volumes": {
 		"audioVolumes": [
-			{ "audio": "OW_QuantumMoon", "track": "music", "position": {"x": 0, "y": 0, "z": 0}, "radius": 105, "volume": 0.3 },
-			{ "audio": "Eye_of_Universe_Ambience_v2_01", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 105, "volume": 0.3 }
+			{ "audio": "OW_QuantumMoon", "track": "music", "position": {"x": 0, "y": 0, "z": 0}, "radius": 110, "volume": 0.3 },
+			{ "audio": "Eye_of_Universe_Ambience_v2_01", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 110, "volume": 0.3 }
 		]
 	}
 }
