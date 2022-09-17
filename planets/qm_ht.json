@@ -51,7 +51,8 @@
 	},
 	"Volumes": {
 		"audioVolumes": [
-			{ "audio": "OW_QuantumMoon", "track": "music", "position": {"x": 0, "y": 0, "z": 0}, "radius": 105 }
+			{ "audio": "OW_QuantumMoon", "track": "music", "position": {"x": 0, "y": 0, "z": 0}, "radius": 105, "volume": 0.3 },
+			{ "audio": "Eye_of_Universe_Ambience_v2_01", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 105, "volume": 0.3 }
 		]
 	}
 }
