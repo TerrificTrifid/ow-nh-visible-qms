@@ -41,9 +41,6 @@
 		"signals": [
 			{ "position" : {"x": 0, "y": 0, "z": 0}, "frequency" : "Quantum", "name" : "Quantum Hearth", "audio" : "OW_QuantumSignal", "sourceRadius" : 105, "detectionRadius": 105, "identificationRadius" : 105, "onlyAudibleToScope" : true }
 		],
-		"audioVolumes": [
-			{ "audio": "OW_QuantumMoon", "track": "music", "position": {"x": 0, "y": 0, "z": 0}, "radius": 105 }
-		],
 		"details": [
 			{
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH"
@@ -56,6 +53,11 @@
 			{
 				"path": "QuantumMoon_Body/AmbientLight_QM"
 			}
+		]
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{ "audio": "OW_QuantumMoon", "track": "music", "position": {"x": 0, "y": 0, "z": 0}, "radius": 105 }
 		]
 	}
 }
