@@ -42,7 +42,8 @@
 		],
 		"details": [
 			{
-				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB"
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB",
+				"keepLoaded": true
 			},
 			{
 				"assetBundle": "planets/terrifictrifid_visibleqms",
@@ -50,7 +51,8 @@
 				"scale": 110
 			},
 			{
-				"path": "QuantumMoon_Body/AmbientLight_QM"
+				"path": "QuantumMoon_Body/AmbientLight_QM",
+				"keepLoaded": true
 			}
 		]
 	},

@@ -43,12 +43,14 @@
 		],
 		"details": [
 			{
-				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH"
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH",
+				"keepLoaded": true
 			},
 			{
 				"assetBundle": "planets/terrifictrifid_visibleqms",
 				"path": "Assets/QMCore.prefab",
-				"scale": 65
+				"scale": 65,
+				"keepLoaded": true
 			},
 			{
 				"assetBundle": "planets/terrifictrifid_visibleqms",
@@ -56,7 +58,8 @@
 				"scale": 110
 			},
 			{
-				"path": "QuantumMoon_Body/AmbientLight_QM"
+				"path": "QuantumMoon_Body/AmbientLight_QM",
+				"keepLoaded": true
 			}
 		]
 	},
