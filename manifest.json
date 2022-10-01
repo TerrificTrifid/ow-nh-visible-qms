@@ -3,7 +3,7 @@
   "author": "TerrificTrifid",
   "name": "Cloudless Quantum Moons",
   "uniqueName": "TerrificTrifid.VisibleQMs",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "owmlVersion": "2.1.0",
   "dependencies": [ "xen.NewHorizons" ],
   "conflicts": [ "hearth1an.TheVision" ]
